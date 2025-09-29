@@ -6,7 +6,7 @@ import {
   getPopularPosts,
   getTotalUsers,
 } from "@/data/queries";
-import { getPopularRules } from "@directories/data/popular";
+import { getPopularRules } from "@mcp-bd/data/popular";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
