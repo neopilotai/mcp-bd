@@ -1,5 +1,5 @@
 import { getCompanies, getMCPs } from "@/data/queries";
-import { getSections } from "@mcp-bd/data/rules";
+import { getSections } from "@directories/data/rules";
 import type { MetadataRoute } from "next";
 
 const BASE_URL = "https://cursor.directory";
