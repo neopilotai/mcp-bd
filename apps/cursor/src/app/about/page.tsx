@@ -67,10 +67,10 @@ export default function About() {
           <p className="text-[#878787] leading-relaxed text-sm">
             Follow{" "}
             <a
-              href="https://x.com/pontusab"
+              href="https://x.com/mcp-bd"
               className="text-primary hover:underline"
             >
-              @pontusab
+              @mcp-bd
             </a>{" "}
             and{" "}
             <a
