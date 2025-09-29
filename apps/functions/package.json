@@ -1,0 +1,16 @@
+{
+  "name": "@mcp-bd/functions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Supabase Edge Functions for MCP-BD Explorer",
+  "scripts": {
+    "dev": "supabase functions serve",
+    "deploy": "supabase functions deploy",
+    "deploy:scheduler": "supabase functions deploy scheduler",
+    "logs": "supabase functions logs",
+    "test": "deno test --allow-all"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0"
+  }
+}

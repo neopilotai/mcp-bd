@@ -1,0 +1,35 @@
+{
+  "name": "@mcp-bd/web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Next.js dashboard for MCP-BD Explorer",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf .next"
+  },
+  "dependencies": {
+    "@mcp-bd/db": "workspace:*",
+    "@mcp-bd/ui": "workspace:*",
+    "@supabase/ssr": "^0.1.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.12.0"
+  },
+  "devDependencies": {
+    "@next/eslint-config-next": "14.1.0",
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4.5"
+  }
+}

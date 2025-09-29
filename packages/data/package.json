@@ -1,0 +1,14 @@
+{
+  "name": "@mcp-bd/data",
+  "version": "1.0.0",
+  "description": "MCP-BD data",
+  "main": "src/index.ts",
+  "exports": {
+    "./rules": "./src/rules/index.ts",
+    "./mcp": "./src/mcp/index.ts",
+    "./popular": "./src/popular/index.ts"
+  },
+  "dependencies": {
+    "@mcp-bd/kv": "workspace:*"
+  }
+}
