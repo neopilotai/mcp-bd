@@ -1,7 +1,7 @@
 import { Menu } from "@/components/menu";
 import { RuleCard } from "@/components/rule-card";
 import { RuleSidebar } from "@/components/rule-sidebar";
-import { getRuleBySlug, rules } from "@directories/data/rules";
+import { getRuleBySlug, rules } from "@mcp-bd/data/rules";
 
 type Params = Promise<{ slug: string }>;
 

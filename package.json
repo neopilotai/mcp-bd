@@ -1,5 +1,5 @@
 {
-  "name": "mcp-bd-explorer",
+  "name": "mcp-bd",
   "version": "1.0.0",
   "private": true,
   "description": "Production-ready monorepo for exploring Bangladeshi domains",
@@ -17,12 +17,16 @@
     "db:generate": "cd packages/db && npm run generate",
     "worker:dev": "cd apps/worker && npm run dev",
     "worker:build": "cd apps/worker && npm run build",
-    "functions:deploy": "cd apps/functions && supabase functions deploy"
+    "functions:deploy": "cd apps/functions && supabase functions deploy",
+    "mcp:dev": "pnpm -w --filter @mcp-bd/mcp-server dev",
+    "mcp:build": "pnpm -w --filter @mcp-bd/mcp-server build",
+    "mcp:start": "pnpm -w --filter @mcp-bd/mcp-server start"
   },
   "devDependencies": {
     "turbo": "^1.13.4",
     "@types/node": "^20.14.0",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "@biomejs/biome": "^1.9.4"
   },
   "engines": {
     "node": ">=18.0.0",

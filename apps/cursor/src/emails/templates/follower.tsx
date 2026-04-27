@@ -109,7 +109,7 @@ export default function FollowerEmail({
               Best,
               <br />
               <Link
-                href="https://twitter.com/pontusab"
+                href="https://twitter.com/mcp-bd"
                 className="text-black font-mono text-xs leading-7 underline"
               >
                 @Pontus

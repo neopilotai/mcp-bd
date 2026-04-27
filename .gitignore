@@ -35,7 +35,7 @@ coverage/
 # nyc test coverage
 .nyc_output
 
-# Dependency directories
+# Dependency mcp-bd
 node_modules/
 jspm_packages/
 
@@ -87,7 +87,7 @@ public
 tmp/
 temp/
 
-# Editor directories and files
+# Editor mcp-bd and files
 .vscode/*
 !.vscode/extensions.json
 .idea

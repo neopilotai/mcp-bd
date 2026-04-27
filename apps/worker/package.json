@@ -29,8 +29,8 @@
     "@types/jest": "^29.5.12",
     "@types/node": "^20.14.0",
     "@types/node-cron": "^3.0.11",
-    "@types/robots-parser": "^3.0.4",
-    "@types/whois": "^2.13.4",
+    
+    
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "eslint": "^8.56.0",

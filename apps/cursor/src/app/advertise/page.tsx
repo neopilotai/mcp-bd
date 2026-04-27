@@ -89,10 +89,10 @@ export default function Advertise() {
               <br />
               Contact Pontus at{" "}
               <a
-                href="https://twitter.com/pontusab"
+                href="https://twitter.com/mcp-bd"
                 className="text-primary border-border border-dashed border-b-[1px]"
               >
-                @pontusab
+                @mcp-bd
               </a>{" "}
               to discuss how we can help you reach our engaged developer
               community.

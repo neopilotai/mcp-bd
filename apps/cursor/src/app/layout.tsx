@@ -96,7 +96,7 @@ export default function RootLayout({
             {children}
 
             <a
-              href="https://github.com/pontusab/cursor.directory"
+              href="https://github.com/mcp-bd/cursor.directory"
               target="_blank"
               rel="noreferrer"
             >
